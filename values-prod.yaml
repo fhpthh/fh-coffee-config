@@ -11,7 +11,7 @@ backend:
 
 frontend:
   name: fh-frontend
-  image: huepth/fhcoffee-frontend:latest
+  image: huepth/fhcoffee-frontend:v2.2.10
   port: 80
   servicePort: 32002
   apiUrl: "192.168.126.102:4000"
